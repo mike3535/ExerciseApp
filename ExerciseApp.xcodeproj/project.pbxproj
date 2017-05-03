@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A80FE9931E90444F00BC51F1 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FE98E1E90441B00BC51F1 /* Charts.framework */; };
+		A80FE9941E90444F00BC51F1 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A80FE98E1E90441B00BC51F1 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8432A851E9FF30600E22615 /* WorkoutImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8432A841E9FF30600E22615 /* WorkoutImageCollectionViewCell.swift */; };
+		A8432A891E9FF5A600E22615 /* 1a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8432A881E9FF5A600E22615 /* 1a.jpg */; };
+		A8432A8B1E9FF5AB00E22615 /* 1b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8432A8A1E9FF5AB00E22615 /* 1b.jpg */; };
+		A8432A8D1E9FF5AF00E22615 /* 1c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8432A8C1E9FF5AF00E22615 /* 1c.jpg */; };
+		A85865FC1E843A8000BC3317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85865FB1E843A8000BC3317 /* AppDelegate.swift */; };
+		A85866041E843A8000BC3317 /* ExerciseApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A85866021E843A8000BC3317 /* ExerciseApp.xcdatamodeld */; };
+		A85866061E843A8000BC3317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85866051E843A8000BC3317 /* Assets.xcassets */; };
+		A85866091E843A8000BC3317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85866071E843A8000BC3317 /* LaunchScreen.storyboard */; };
+		A88DCEDE1E848FB000B52EDA /* PINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88DCEDD1E848FB000B52EDA /* PINViewController.swift */; };
+		A88DCEE01E84978200B52EDA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88DCEDF1E84978200B52EDA /* MenuViewController.swift */; };
+		A88DCEE21E849C6100B52EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88DCEE11E849C6100B52EDA /* Main.storyboard */; };
+		A88DCEE71E85CCD900B52EDA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88DCEE61E85CCD900B52EDA /* SWRevealViewController.m */; };
+		A88DCEE91E85D2F000B52EDA /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88DCEE81E85D2F000B52EDA /* DataViewController.swift */; };
+		A88DCEEB1E85D31200B52EDA /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88DCEEA1E85D31200B52EDA /* GoalsViewController.swift */; };
+		A88DCEED1E85D33500B52EDA /* StartNewWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88DCEEC1E85D33500B52EDA /* StartNewWorkoutViewController.swift */; };
+		A88DCEEF1E85D35800B52EDA /* ResumeWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88DCEEE1E85D35800B52EDA /* ResumeWorkoutViewController.swift */; };
+		A88DCEF11E85D37200B52EDA /* StartExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88DCEF01E85D37200B52EDA /* StartExerciseViewController.swift */; };
+		A8AC05541E86D09900D8C584 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC05531E86D09900D8C584 /* MenuTableViewController.swift */; };
+		A8AC05561E86D4AC00D8C584 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC05551E86D4AC00D8C584 /* MenuTableViewCell.swift */; };
+		A8AC05581E872B6500D8C584 /* StartNewWorkoutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC05571E872B6500D8C584 /* StartNewWorkoutDetailViewController.swift */; };
+		A8C8D8581E873DBE00C5EF85 /* StartChosenExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C8D8571E873DBE00C5EF85 /* StartChosenExerciseViewController.swift */; };
+		A8FACB931E8CAE1B00D92B93 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FACB921E8CAE1B00D92B93 /* UserNotifications.framework */; };
+		A8FB2FF61E8EFF11007260DE /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FB2FF51E8EFF11007260DE /* images.png */; };
+		A8FB2FF81E8F000B007260DE /* ima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8FB2FF71E8F000B007260DE /* ima.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A80FE98D1E90441B00BC51F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80FE9871E90441B00BC51F1 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F241D8110E600722320;
+			remoteInfo = Charts;
+		};
+		A80FE98F1E90441B00BC51F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80FE9871E90441B00BC51F1 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06B120D51D811E6200D14B02;
+			remoteInfo = ChartsRealm;
+		};
+		A80FE9911E90441B00BC51F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80FE9871E90441B00BC51F1 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F2E1D8110E600722320;
+			remoteInfo = ChartsTests;
+		};
+		A80FE9951E90444F00BC51F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80FE9871E90441B00BC51F1 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 06165F231D8110E600722320;
+			remoteInfo = Charts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A80FE9971E90444F00BC51F1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A80FE9941E90444F00BC51F1 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A80FE9871E90441B00BC51F1 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		A8432A841E9FF30600E22615 /* WorkoutImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		A8432A881E9FF5A600E22615 /* 1a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1a.jpg; path = "../../Core Stability and Strength 640x480/1a.jpg"; sourceTree = "<group>"; };
+		A8432A8A1E9FF5AB00E22615 /* 1b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1b.jpg; path = "../../Core Stability and Strength 640x480/1b.jpg"; sourceTree = "<group>"; };
+		A8432A8C1E9FF5AF00E22615 /* 1c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1c.jpg; path = "../../Core Stability and Strength 640x480/1c.jpg"; sourceTree = "<group>"; };
+		A85865F81E843A8000BC3317 /* ExerciseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85865FB1E843A8000BC3317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ExerciseApp/AppDelegate.swift; sourceTree = "<group>"; };
+		A85866031E843A8000BC3317 /* ExerciseApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExerciseApp.xcdatamodel; sourceTree = "<group>"; };
+		A85866051E843A8000BC3317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A85866081E843A8000BC3317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A858660A1E843A8000BC3317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88DCEDD1E848FB000B52EDA /* PINViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PINViewController.swift; sourceTree = "<group>"; };
+		A88DCEDF1E84978200B52EDA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A88DCEE11E849C6100B52EDA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ExerciseApp/Main.storyboard; sourceTree = "<group>"; };
+		A88DCEE41E85CCC400B52EDA /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A88DCEE51E85CCD800B52EDA /* ExerciseApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExerciseApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		A88DCEE61E85CCD900B52EDA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A88DCEE81E85D2F000B52EDA /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataViewController.swift; path = ExerciseApp/DataViewController.swift; sourceTree = "<group>"; };
+		A88DCEEA1E85D31200B52EDA /* GoalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoalsViewController.swift; path = ExerciseApp/GoalsViewController.swift; sourceTree = "<group>"; };
+		A88DCEEC1E85D33500B52EDA /* StartNewWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartNewWorkoutViewController.swift; path = ExerciseApp/StartNewWorkoutViewController.swift; sourceTree = "<group>"; };
+		A88DCEEE1E85D35800B52EDA /* ResumeWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResumeWorkoutViewController.swift; path = ExerciseApp/ResumeWorkoutViewController.swift; sourceTree = "<group>"; };
+		A88DCEF01E85D37200B52EDA /* StartExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartExerciseViewController.swift; sourceTree = "<group>"; };
+		A8AC05531E86D09900D8C584 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTableViewController.swift; path = ExerciseApp/MenuTableViewController.swift; sourceTree = "<group>"; };
+		A8AC05551E86D4AC00D8C584 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		A8AC05571E872B6500D8C584 /* StartNewWorkoutDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartNewWorkoutDetailViewController.swift; sourceTree = "<group>"; };
+		A8C8D8571E873DBE00C5EF85 /* StartChosenExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartChosenExerciseViewController.swift; path = ExerciseApp/StartChosenExerciseViewController.swift; sourceTree = "<group>"; };
+		A8FACB921E8CAE1B00D92B93 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		A8FB2FF51E8EFF11007260DE /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images.png; path = ../../images.png; sourceTree = "<group>"; };
+		A8FB2FF71E8F000B007260DE /* ima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ima.jpg; path = ../../ima.jpg; sourceTree = "<group>"; };
+		A8FC75631E8C9A8D00CA8034 /* ExerciseApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExerciseApp.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85865F51E843A8000BC3317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FACB931E8CAE1B00D92B93 /* UserNotifications.framework in Frameworks */,
+				A80FE9931E90444F00BC51F1 /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80FE9881E90441B00BC51F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80FE98E1E90441B00BC51F1 /* Charts.framework */,
+				A80FE9901E90441B00BC51F1 /* ChartsRealm.framework */,
+				A80FE9921E90441B00BC51F1 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85865EF1E843A8000BC3317 = {
+			isa = PBXGroup;
+			children = (
+				A8AC05531E86D09900D8C584 /* MenuTableViewController.swift */,
+				A8AC05551E86D4AC00D8C584 /* MenuTableViewCell.swift */,
+				A88DCEDD1E848FB000B52EDA /* PINViewController.swift */,
+				A88DCEDF1E84978200B52EDA /* MenuViewController.swift */,
+				A88DCEE81E85D2F000B52EDA /* DataViewController.swift */,
+				A88DCEEA1E85D31200B52EDA /* GoalsViewController.swift */,
+				A88DCEEC1E85D33500B52EDA /* StartNewWorkoutViewController.swift */,
+				A8AC05571E872B6500D8C584 /* StartNewWorkoutDetailViewController.swift */,
+				A8432A841E9FF30600E22615 /* WorkoutImageCollectionViewCell.swift */,
+				A88DCEEE1E85D35800B52EDA /* ResumeWorkoutViewController.swift */,
+				A88DCEF01E85D37200B52EDA /* StartExerciseViewController.swift */,
+				A8C8D8571E873DBE00C5EF85 /* StartChosenExerciseViewController.swift */,
+				A85865FB1E843A8000BC3317 /* AppDelegate.swift */,
+				A88DCEE11E849C6100B52EDA /* Main.storyboard */,
+				A85865FA1E843A8000BC3317 /* ExerciseApp */,
+				A85865F91E843A8000BC3317 /* Products */,
+				A8FACB911E8CAE1B00D92B93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A85865F91E843A8000BC3317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85865F81E843A8000BC3317 /* ExerciseApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85865FA1E843A8000BC3317 /* ExerciseApp */ = {
+			isa = PBXGroup;
+			children = (
+				A8FC75631E8C9A8D00CA8034 /* ExerciseApp.entitlements */,
+				A88DCEE31E85CC9000B52EDA /* SWRevealController */,
+				A85866051E843A8000BC3317 /* Assets.xcassets */,
+				A85866071E843A8000BC3317 /* LaunchScreen.storyboard */,
+				A858660A1E843A8000BC3317 /* Info.plist */,
+				A85866021E843A8000BC3317 /* ExerciseApp.xcdatamodeld */,
+			);
+			path = ExerciseApp;
+			sourceTree = "<group>";
+		};
+		A88DCEE31E85CC9000B52EDA /* SWRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				A80FE9871E90441B00BC51F1 /* Charts.xcodeproj */,
+				A88DCEE61E85CCD900B52EDA /* SWRevealViewController.m */,
+				A88DCEE41E85CCC400B52EDA /* SWRevealViewController.h */,
+				A8432A881E9FF5A600E22615 /* 1a.jpg */,
+				A8432A8A1E9FF5AB00E22615 /* 1b.jpg */,
+				A8432A8C1E9FF5AF00E22615 /* 1c.jpg */,
+				A8FB2FF51E8EFF11007260DE /* images.png */,
+				A8FB2FF71E8F000B007260DE /* ima.jpg */,
+				A88DCEE51E85CCD800B52EDA /* ExerciseApp-Bridging-Header.h */,
+			);
+			name = SWRevealController;
+			sourceTree = "<group>";
+		};
+		A8FACB911E8CAE1B00D92B93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8FACB921E8CAE1B00D92B93 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85865F71E843A8000BC3317 /* ExerciseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A858660D1E843A8000BC3317 /* Build configuration list for PBXNativeTarget "ExerciseApp" */;
+			buildPhases = (
+				A85865F41E843A8000BC3317 /* Sources */,
+				A85865F51E843A8000BC3317 /* Frameworks */,
+				A85865F61E843A8000BC3317 /* Resources */,
+				A80FE9971E90444F00BC51F1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80FE9961E90444F00BC51F1 /* PBXTargetDependency */,
+			);
+			name = ExerciseApp;
+			productName = ExerciseApp;
+			productReference = A85865F81E843A8000BC3317 /* ExerciseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85865F01E843A8000BC3317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mike Rizza";
+				TargetAttributes = {
+					A85865F71E843A8000BC3317 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 25XN7WHCLM;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A85865F31E843A8000BC3317 /* Build configuration list for PBXProject "ExerciseApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A85865EF1E843A8000BC3317;
+			productRefGroup = A85865F91E843A8000BC3317 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A80FE9881E90441B00BC51F1 /* Products */;
+					ProjectRef = A80FE9871E90441B00BC51F1 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A85865F71E843A8000BC3317 /* ExerciseApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A80FE98E1E90441B00BC51F1 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = A80FE98D1E90441B00BC51F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A80FE9901E90441B00BC51F1 /* ChartsRealm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ChartsRealm.framework;
+			remoteRef = A80FE98F1E90441B00BC51F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A80FE9921E90441B00BC51F1 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = A80FE9911E90441B00BC51F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A85865F61E843A8000BC3317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FB2FF61E8EFF11007260DE /* images.png in Resources */,
+				A8432A8D1E9FF5AF00E22615 /* 1c.jpg in Resources */,
+				A88DCEE21E849C6100B52EDA /* Main.storyboard in Resources */,
+				A8FB2FF81E8F000B007260DE /* ima.jpg in Resources */,
+				A8432A891E9FF5A600E22615 /* 1a.jpg in Resources */,
+				A85866091E843A8000BC3317 /* LaunchScreen.storyboard in Resources */,
+				A8432A8B1E9FF5AB00E22615 /* 1b.jpg in Resources */,
+				A85866061E843A8000BC3317 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85865F41E843A8000BC3317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88DCEED1E85D33500B52EDA /* StartNewWorkoutViewController.swift in Sources */,
+				A88DCEF11E85D37200B52EDA /* StartExerciseViewController.swift in Sources */,
+				A88DCEEB1E85D31200B52EDA /* GoalsViewController.swift in Sources */,
+				A88DCEDE1E848FB000B52EDA /* PINViewController.swift in Sources */,
+				A8C8D8581E873DBE00C5EF85 /* StartChosenExerciseViewController.swift in Sources */,
+				A85865FC1E843A8000BC3317 /* AppDelegate.swift in Sources */,
+				A88DCEE71E85CCD900B52EDA /* SWRevealViewController.m in Sources */,
+				A8432A851E9FF30600E22615 /* WorkoutImageCollectionViewCell.swift in Sources */,
+				A88DCEEF1E85D35800B52EDA /* ResumeWorkoutViewController.swift in Sources */,
+				A8AC05541E86D09900D8C584 /* MenuTableViewController.swift in Sources */,
+				A8AC05581E872B6500D8C584 /* StartNewWorkoutDetailViewController.swift in Sources */,
+				A8AC05561E86D4AC00D8C584 /* MenuTableViewCell.swift in Sources */,
+				A85866041E843A8000BC3317 /* ExerciseApp.xcdatamodeld in Sources */,
+				A88DCEE91E85D2F000B52EDA /* DataViewController.swift in Sources */,
+				A88DCEE01E84978200B52EDA /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A80FE9961E90444F00BC51F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = A80FE9951E90444F00BC51F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A85866071E843A8000BC3317 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85866081E843A8000BC3317 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A858660B1E843A8000BC3317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A858660C1E843A8000BC3317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A858660E1E843A8000BC3317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ExerciseApp/ExerciseApp.entitlements;
+				DEVELOPMENT_TEAM = 25XN7WHCLM;
+				INFOPLIST_FILE = ExerciseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MikeRizza.ExerciseApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExerciseApp/ExerciseApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A858660F1E843A8000BC3317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ExerciseApp/ExerciseApp.entitlements;
+				DEVELOPMENT_TEAM = 25XN7WHCLM;
+				INFOPLIST_FILE = ExerciseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MikeRizza.ExerciseApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExerciseApp/ExerciseApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85865F31E843A8000BC3317 /* Build configuration list for PBXProject "ExerciseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A858660B1E843A8000BC3317 /* Debug */,
+				A858660C1E843A8000BC3317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A858660D1E843A8000BC3317 /* Build configuration list for PBXNativeTarget "ExerciseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A858660E1E843A8000BC3317 /* Debug */,
+				A858660F1E843A8000BC3317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A85866021E843A8000BC3317 /* ExerciseApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A85866031E843A8000BC3317 /* ExerciseApp.xcdatamodel */,
+			);
+			currentVersion = A85866031E843A8000BC3317 /* ExerciseApp.xcdatamodel */;
+			path = ExerciseApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A85865F01E843A8000BC3317 /* Project object */;
+}
